@@ -1,0 +1,104 @@
+/* main styles*/
+body{
+    background: #bbbcc0;
+}
+
+#content{
+    background: #F2F2F2;
+    margin: 0 auto;
+    width: 960px;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    padding: 1%;
+    border: ridge 1px;
+
+}
+/* header styles*/
+header{
+   padding-bottom: 30px;
+}
+
+h1{
+    background: #bbbcc0;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+h2{
+   font-size: 1.2em;
+
+}
+/* table styles*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 0.5em 1em 1em 1em;
+    width: 35%;
+}
+th {
+    background: #bbbcc0;
+    color: #545257;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+tr.even {
+    background-color: #ececec;
+
+}
+tr.odd {
+    background:#cccccc;
+}
+tr:hover {
+    background-color: #666666;
+}
+/* sections styles*/
+#main {
+    overflow: auto;
+
+}
+#main figure{
+    width:30%;
+    float: left;
+    margin: 0 15px 0 10px;
+}
+
+figure img{
+    width: 100%;
+}
+
+#main p {
+    text-align: justify;
+    width: 60%;
+    float: left;
+}
+
+#links {
+    clear: both;
+    padding-top: 40px;
+}
+/*links styles*/
+
+a{
+    color: #475a80;
+}
+a:hover{
+    color: #A6A59C;
+}
+
+
+/* footer styles*/
+footer{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    width: 90%;
+}
